@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Testeo.exe" version="1.0.1.5" publicKeyToken="615a873a61f0aea1" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Testeo" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Testeo.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Testeo.exe" size="12760">
+      <assemblyIdentity name="Testeo" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>SAHgnW4BSVG2tDGrnBHfOPBtjl/hqtmxzBQqEqmvzh8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Testeo.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VDy5/VrQni+RSOb/6uEMWMc6bGQEaa2e2UdeWG+KK1I=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LT026\daniel.pacheco" issuerKeyHash="8c2354403e7dbb360919b97e7fa50501dbb61f9e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ywSVC5hIMFf5NSMbKD0J6AFWXkouxKTu95CIUCyNGR8=</DigestValue></Reference></SignedInfo><SignatureValue>eAdpTAXOPKVOnYxZHDaAJ8snuLMYJz1gfZWNIJ719lYJJuI88LXcZz+5vuC15jJ8skLV0p51vv0MNWbGj5bNq3KA0EHS6bTpwJnxLHci57pycdpewUONbvTJj5IX2XSV0YdVCO+G7rvyr0J4W2vQgeicB3JQ9LTEHDqvaFUd5Cs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sKRFipIlC43FcHBho6q7d1zu6cze0/oHwIElzUtI61YYxmTo/ygjHiawPKqKCuQMcHWZHgOYwqraWmeoT6/RTjTcXzfG1nUN5XbYCY3SIDSSl3gtvHRxF7pgC6eWEe5B8Lh5dzZ7JZZ3GN93m1Tweu6R6fusS1UJQAtNfpz7HCU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="1f198d2c508890f7eea4c42e4a5e5601e8093d281b2335f9573048980b9504cb" Description="" Url=""><as:assemblyIdentity name="Testeo.exe" version="1.0.1.5" publicKeyToken="615a873a61f0aea1" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LT026\daniel.pacheco</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>7Lhd7BKx2HWgHgyQ6MZgcOep0zl7Z5R9hgnw5Kkzies=</DigestValue></Reference></SignedInfo><SignatureValue>k5peqGlfrvqcF8YSLAhrZFq7CH3ME1ABzBB5oYh1IC9Avn/2ejA5LyRlzTIn0FUjUKi7nos6Hketzkns2WIiGoxskEJPQdJzgNo8AIigkw3H3obzlGGtWqirbqkGwYhhK070Rl/YmFn/AvokoOSMc9GIpevIISYJjQvlcLtzGlo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sKRFipIlC43FcHBho6q7d1zu6cze0/oHwIElzUtI61YYxmTo/ygjHiawPKqKCuQMcHWZHgOYwqraWmeoT6/RTjTcXzfG1nUN5XbYCY3SIDSSl3gtvHRxF7pgC6eWEe5B8Lh5dzZ7JZZ3GN93m1Tweu6R6fusS1UJQAtNfpz7HCU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQVuX2qwUd44xMyXXIfWPKJzANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigATABUADAAMgA2AFwAZABhAG4AaQBlAGwALgBwAGEAYwBoAGUAYwBvMB4XDTIyMTEwOTE0MzkxNFoXDTIzMTEwOTIwMzkxNFowMzExMC8GA1UEAx4oAEwAVAAwADIANgBcAGQAYQBuAGkAZQBsAC4AcABhAGMAaABlAGMAbzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAsKRFipIlC43FcHBho6q7d1zu6cze0/oHwIElzUtI61YYxmTo/ygjHiawPKqKCuQMcHWZHgOYwqraWmeoT6/RTjTcXzfG1nUN5XbYCY3SIDSSl3gtvHRxF7pgC6eWEe5B8Lh5dzZ7JZZ3GN93m1Tweu6R6fusS1UJQAtNfpz7HCUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQAXL0MaUhSZ5/MFArf2JtLLpWjMhO2tQFkmxmVct6F//3OS85vXy4JsJdB43OUoY1Q4ZJcdXyTgUYsXWiw/3xu8cockBhTiIWAqC2wFmbJs+pzgOcrdA/0ch1oBnQnhRi+/DjEKcdxfHv3jJwWuGlS2wZWxxhmZglVGjcSzSEvt3g==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
